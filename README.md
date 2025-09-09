@@ -1,45 +1,62 @@
-# BDShop-manual-testing
-#🛒 BD Shop – Manual Testing Project
+# BD Shop – Manual Testing Project
 
-<b>#Project Overview<b>
-BD Shop is an **e-commerce web application** that allows users to register, log in, browse products, and perform transactions.  
-This project focuses on **manual testing** of the **Registration and Login modules** to ensure functional correctness, input validation, and system reliability.  
-
-The project was executed as part of a QA learning initiative to simulate **real-world software testing practices**.  
+## 📌 Project Overview
+This project involves **manual testing of the Registration and Login modules** of the e-commerce application **BD Shop**. The goal was to validate functionality, usability, and reliability of the core user management features through a structured QA process.
 
 ## 🎯 Objectives
-- Validate functional requirements of **Registration** and **Login** modules.
-- Identify defects in input validation and business logic.
-- Maintain professional QA documentation (test cases, bug reports, summary, metrics).
-- Provide execution evidence to stakeholders.
+- Ensure that **new users can successfully register** with valid data.
+- Verify that **invalid inputs are correctly handled** with error messages.
+- Validate the **Login functionality** with correct and incorrect credentials.
+- Assess overall **usability, compatibility, and security checks** of user-related workflows.
 
-## 📂 Project Deliverables
-The following QA artifacts are included in this repository:
+## 🛠️ Scope of Testing
+- **Modules Covered:** Registration, Login  
+- **Features Tested:**
+  - Form validation (mandatory fields, data types, boundary values)  
+  - Input handling (alphabets, numbers, special characters, spaces)  
+  - Checkbox and Captcha functionality  
+  - Password validation rules (weak/strong, masking, matching)  
+  - Browser compatibility and usability aspects  
+  - Login workflow including Forgot Password and Remember Me  
 
-- **Test Cases** – Detailed step-by-step test cases with expected vs actual results.
-- **Bug Report** – Structured defect log with severity, priority, and screenshots.
-- **Test Summary Report** – High-level execution results (Pass/Fail, defect trends).
-- **Test Metrics** – Coverage analysis, defect density, pass percentage.
-- **Traceability Matrix (RTM)** – Mapping between requirements and test cases (optional).
-- **Screenshots & Proof** – Evidence of failed test executions.
+## 📂 Deliverables
+This repository contains the following artifacts:
 
-## 🔍 Testing Approach
-- **Type of Testing:** Manual Testing (Black Box)
-- **Techniques Used:**
-  - Equivalence Partitioning
-  - Boundary Value Analysis
-  - Negative Testing
-  - Exploratory Testing
-- **Tools Used:** MS Excel, Google Sheets, GitHub
-- **Browsers Tested:** Chrome, Firefox, Edge
-- **Environment:** Windows 10, Web Application
+- **BD Shop Manual Testing.xlsx**  
+  - **Test Cases** – step-by-step scenarios with inputs, expected & actual results.  
+  - **Bug Report** – defects logged with severity, priority, and reproduction steps.  
+  - **Test Metrics** – execution coverage, defect distribution, and quality indicators.  
+  - **Test Execution Summary** – overall testing outcome with pass/fail statistics.  
 
 ## 📊 Test Execution Summary
 - **Total Test Cases:** 62  
 - ✅ **Passed:** 54  
 - ❌ **Failed:** 8  
-- ⏸ **Blocked:** 0  
+- ⏸ **Blocked/Not Executed:** 0  
+- **Execution Coverage:** 100%  
 - **Pass Percentage:** 87%  
+
+## 🔍 Testing Approach
+- **Type of Testing Performed:**  
+  - Functional Testing  
+  - UI/UX Testing  
+  - Usability Testing  
+  - Browser Compatibility Testing  
+  - Negative Testing  
+
+- **Techniques Used:**  
+  - Equivalence Partitioning  
+  - Boundary Value Analysis  
+  - Positive and Negative Scenario Testing  
+
+## 📈 Key Highlights
+- Designed **62 comprehensive test cases** for Registration & Login modules.  
+- Identified **8 critical defects**, improving application reliability.  
+- Achieved **87% pass rate**, with detailed reporting and metrics.  
+- Followed **industry-standard QA documentation practices** (Test Cases, Bug Reports, Metrics, Summary).  
+
+
+
 
 
 ## 📌 Key Learnings & Outcomes
